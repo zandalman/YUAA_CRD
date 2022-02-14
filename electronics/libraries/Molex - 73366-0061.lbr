@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="MOLEX_73366-0061_0">
+                    <description>MCX Connector Jack, Female Socket 50Ohm Through Hole Solder</description>
+                    <wire layer="51" y2="3.05" width="0.15" x2="-3.05" y1="-3.05" x1="-3.05"/>
+                    <wire layer="51" y2="3.05" width="0.15" x2="3.05" y1="3.05" x1="-3.05"/>
+                    <wire layer="51" y2="-3.05" width="0.15" x2="3.05" y1="3.05" x1="3.05"/>
+                    <wire layer="51" y2="-3.05" width="0.15" x2="-3.05" y1="-3.05" x1="3.05"/>
+                    <wire layer="41" y2="3.8" width="0.1" x2="-3.8" y1="-3.8" x1="-3.8"/>
+                    <wire layer="41" y2="3.8" width="0.1" x2="3.8" y1="3.8" x1="-3.8"/>
+                    <wire layer="41" y2="-3.8" width="0.1" x2="3.8" y1="3.8" x1="3.8"/>
+                    <wire layer="41" y2="-3.8" width="0.1" x2="-3.8" y1="-3.8" x1="3.8"/>
+                    <wire layer="21" y2="3.05" width="0.15" x2="1.005" y1="3.05" x1="-1.005"/>
+                    <wire layer="21" y2="1.005" width="0.15" x2="3.05" y1="-1.005" x1="3.05"/>
+                    <wire layer="21" y2="-3.05" width="0.15" x2="1.005" y1="-3.05" x1="-1.005"/>
+                    <wire layer="21" y2="1.005" width="0.15" x2="-3.05" y1="-1.005" x1="-3.05"/>
+                    <text layer="25" align="bottom-left" y="3.95" x="-3.05" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="0.0" x="-4.25" layer="21" radius="0.25" width="0.0"/>
+                    <pad diameter="1.82" name="1" shape="square" drill="1.17" y="0.0" x="0.0" rot="R0"/>
+                    <pad diameter="2.32" name="2" shape="round" drill="1.52" y="2.54" x="-2.54" rot="R0"/>
+                    <pad diameter="2.32" name="3" shape="round" drill="1.52" y="2.54" x="2.54" rot="R0"/>
+                    <pad diameter="2.32" name="4" shape="round" drill="1.52" y="-2.54" x="-2.54" rot="R0"/>
+                    <pad diameter="2.32" name="5" shape="round" drill="1.52" y="-2.54" x="2.54" rot="R0"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="MOLEX_73366-0061_0_0">
+                    <description>MCX Connector Jack, Female Socket 50Ohm Through Hole Solder</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="2.54" y1="-35.56" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="15.24" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-35.56" width="0.254" x2="15.24" y1="-5.08" x1="15.24"/>
+                    <wire layer="94" y2="-35.56" width="0.254" x2="2.54" y1="-35.56" x1="15.24"/>
+                    <wire layer="94" y2="-10.16" width="0.508" x2="15.24" y1="-10.16" x1="9.652"/>
+                    <wire layer="94" y2="-17.78" width="0.508" x2="15.24" y1="-17.78" x1="9.652"/>
+                    <wire layer="94" y2="-22.86" width="0.508" x2="15.24" y1="-22.86" x1="9.652"/>
+                    <wire layer="94" y2="-27.94" width="0.508" x2="15.24" y1="-27.94" x1="9.652"/>
+                    <wire layer="94" y2="-33.02" width="0.508" x2="15.24" y1="-33.02" x1="9.652"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="15.24" y1="-10.16" x1="15.24"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="15.24" y1="-17.78" x1="15.24"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="15.24" y1="-22.86" x1="15.24"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="15.24" y1="-27.94" x1="15.24"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="15.24" y1="-33.02" x1="15.24"/>
+                    <text layer="95" align="top-left" y="-2.54" x="5.08" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-40.64" x="2.54" rot="R0" size="2.54">73366-0061</text>
+                    <pin direction="pas" name="1" visible="pad" length="middle" y="-10.16" x="20.32" rot="R180"/>
+                    <pin direction="pas" name="MNT_1" visible="pad" length="middle" y="-17.78" x="20.32" rot="R180"/>
+                    <pin direction="pas" name="MNT_2" visible="pad" length="middle" y="-22.86" x="20.32" rot="R180"/>
+                    <pin direction="pas" name="MNT_3" visible="pad" length="middle" y="-27.94" x="20.32" rot="R180"/>
+                    <pin direction="pas" name="MNT_4" visible="pad" length="middle" y="-33.02" x="20.32" rot="R180"/>
+                    <circle y="-10.16" x="8.89" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-17.78" x="8.89" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-22.86" x="8.89" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-27.94" x="8.89" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-33.02" x="8.89" layer="94" radius="0.762" width="0.254"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="J" name="MOLEX_73366-0061">
+                    <description>MCX Connector Jack, Female Socket 50Ohm Through Hole Solder</description>
+                    <gates>
+                        <gate name="G$0" symbol="MOLEX_73366-0061_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="MOLEX_73366-0061_0_0" package="MOLEX_73366-0061_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="1"/>
+                                <connect gate="G$0" pad="2" pin="MNT_1"/>
+                                <connect gate="G$0" pad="3" pin="MNT_2"/>
+                                <connect gate="G$0" pad="4" pin="MNT_3"/>
+                                <connect gate="G$0" pad="5" pin="MNT_4"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="538-73366-0061"/>
+                                    <attribute name="mouser_description" value="RF Connectors / Coaxial Connectors MCX PCB JACK
+"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="is_female" value="yes"/>
+                                    <attribute name="temperature_range_high" value="+155°C"/>
+                                    <attribute name="MPN" value="73366-0061"/>
+                                    <attribute name="impedance" value="50Ω"/>
+                                    <attribute name="device_class_L3" value="unset"/>
+                                    <attribute name="device_class_L1" value="Connectors"/>
+                                    <attribute name="digikey_part_number" value="WM5541-ND"/>
+                                    <attribute name="frequency" value="6GHz"/>
+                                    <attribute name="shielding" value="true"/>
+                                    <attribute name="prefix" value="J"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="datasheet" value="https://www.molex.com/webdocs/datasheets/pdf/en-us/0733660061_RF_COAX_CONNECTORS.pdf"/>
+                                    <attribute name="footprint_url" value="https://www.molex.com/pdm_docs/sd/733660061_sd.pdf"/>
+                                    <attribute name="voltage_rating" value="335V"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="5.23mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="0"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="device_class_L2" value="RF / Coaxial Connectors"/>
+                                    <attribute name="number_of_contacts" value="1"/>
+                                    <attribute name="conn_orientation" value="Straight"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="standoff_height" value="0.05mm"/>
+                                    <attribute name="digikey_description" value="CONN MCX JACK STR 50 OHM PCB"/>
+                                    <attribute name="dielectric_material" value="PTFE"/>
+                                    <attribute name="MF" value="Molex"/>
+                                    <attribute name="contact_material" value="Gold,Nickel"/>
+                                    <attribute name="package" value="CONN_JACK"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
