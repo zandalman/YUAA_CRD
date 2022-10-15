@@ -55,3 +55,6 @@ The outputs from the comparators are fed into real time clock (RTC) IC chips, wh
 We only have access to a 5 V power supply from the OBC. However, the preamp requires a 12 V power supply and the AC coupling circuit requires a 30 V bias voltage. We use boost converters to generate these voltages from the 5 V supply. All components draw negligible current, so there is no worry about drawing too much current.
 
 The light output of the scintillator is temperature dependent and we don’t know exactly what the equilibrium temperature will be in the CubeSat once it is in space. Therefore, we use resistor temperature devices (RTDs) to monitor the temperature on our custom PCB and near the shielding.
+
+The code for interfacing between the OBC and the I2C components of the circuit is managed by
+the software subteam of the CubeSat and is available upon request.
